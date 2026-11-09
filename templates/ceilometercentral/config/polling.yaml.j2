@@ -6,6 +6,10 @@ sources:
         - volume.*
         - image.*
         - ip.floating
+        - network.services.vpn
+        - network.services.vpn.connections
+        - network.services.firewall
+        - network.services.firewall.policy
 {{- if .SwiftRole }}
         - storage.*
 {{- end }}
